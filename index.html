@@ -1,1 +1,561 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>portafolio</title><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css"><link href="/css/chunk-4b0a2796.6a5d1476.css" rel="prefetch"><link href="/css/chunk-522341a1.ed184bde.css" rel="prefetch"><link href="/css/chunk-e4908236.403c78d3.css" rel="prefetch"><link href="/css/chunk-f81e08a0.7093274d.css" rel="prefetch"><link href="/js/chunk-4b0a2796.1581b8b4.js" rel="prefetch"><link href="/js/chunk-522341a1.f5fe3338.js" rel="prefetch"><link href="/js/chunk-e4908236.62867096.js" rel="prefetch"><link href="/js/chunk-f81e08a0.28cf1d8a.js" rel="prefetch"><link href="/css/app.3091b8fb.css" rel="preload" as="style"><link href="/css/chunk-vendors.1495a6c9.css" rel="preload" as="style"><link href="/js/app.0f0236b2.js" rel="preload" as="script"><link href="/js/chunk-vendors.1be8cdd7.js" rel="preload" as="script"><link href="/css/chunk-vendors.1495a6c9.css" rel="stylesheet"><link href="/css/app.3091b8fb.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but portafolio doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="/js/chunk-vendors.1be8cdd7.js"></script><script src="/js/app.0f0236b2.js"></script></body></html>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>portafolio</title><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css"><link href="/css/chunk-08ed0718.1cb33237.css" rel="prefetch"><link href="/css/chunk-4b0a2796.6a5d1476.css" rel="prefetch"><link href="/css/chunk-522341a1.ed184bde.css" rel="prefetch"><link href="/css/chunk-d48d32f8.e8c0b674.css" rel="prefetch"><link href="/css/chunk-f81e08a0.7093274d.css" rel="prefetch"><link href="/js/chunk-08ed0718.db6ae719.js" rel="prefetch"><link href="/js/chunk-4b0a2796.5a8eef49.js" rel="prefetch"><link href="/js/chunk-522341a1.df1ffaf8.js" rel="prefetch"><link href="/js/chunk-d48d32f8.b3b664cf.js" rel="prefetch"><link href="/js/chunk-f81e08a0.bdf3bd9e.js" rel="prefetch"><link href="/css/app.c70ac1ff.css" rel="preload" as="style"><link href="/css/chunk-vendors.1495a6c9.css" rel="preload" as="style"><link href="/js/app.b9cfbb05.js" rel="preload" as="script"><link href="/js/chunk-vendors.725e5428.js" rel="preload" as="script"><link href="/css/chunk-vendors.1495a6c9.css" rel="stylesheet"><link href="/css/app.c70ac1ff.css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="/css/chunk-08ed0718.1cb33237.css"><script charset="utf-8" src="/js/chunk-08ed0718.db6ae719.js"></script><style type="text/css" id="vuetify-theme-stylesheet">.v-application a { color: #5f5f5f; }
+.v-application .primary {
+  background-color: #5f5f5f !important;
+  border-color: #5f5f5f !important;
+}
+.v-application .primary--text {
+  color: #5f5f5f !important;
+  caret-color: #5f5f5f !important;
+}
+.v-application .primary.lighten-5 {
+  background-color: #e3e3e3 !important;
+  border-color: #e3e3e3 !important;
+}
+.v-application .primary--text.text--lighten-5 {
+  color: #e3e3e3 !important;
+  caret-color: #e3e3e3 !important;
+}
+.v-application .primary.lighten-4 {
+  background-color: #c7c7c7 !important;
+  border-color: #c7c7c7 !important;
+}
+.v-application .primary--text.text--lighten-4 {
+  color: #c7c7c7 !important;
+  caret-color: #c7c7c7 !important;
+}
+.v-application .primary.lighten-3 {
+  background-color: #acacac !important;
+  border-color: #acacac !important;
+}
+.v-application .primary--text.text--lighten-3 {
+  color: #acacac !important;
+  caret-color: #acacac !important;
+}
+.v-application .primary.lighten-2 {
+  background-color: #919191 !important;
+  border-color: #919191 !important;
+}
+.v-application .primary--text.text--lighten-2 {
+  color: #919191 !important;
+  caret-color: #919191 !important;
+}
+.v-application .primary.lighten-1 {
+  background-color: #787878 !important;
+  border-color: #787878 !important;
+}
+.v-application .primary--text.text--lighten-1 {
+  color: #787878 !important;
+  caret-color: #787878 !important;
+}
+.v-application .primary.darken-1 {
+  background-color: #474747 !important;
+  border-color: #474747 !important;
+}
+.v-application .primary--text.text--darken-1 {
+  color: #474747 !important;
+  caret-color: #474747 !important;
+}
+.v-application .primary.darken-2 {
+  background-color: #313131 !important;
+  border-color: #313131 !important;
+}
+.v-application .primary--text.text--darken-2 {
+  color: #313131 !important;
+  caret-color: #313131 !important;
+}
+.v-application .primary.darken-3 {
+  background-color: #1c1c1c !important;
+  border-color: #1c1c1c !important;
+}
+.v-application .primary--text.text--darken-3 {
+  color: #1c1c1c !important;
+  caret-color: #1c1c1c !important;
+}
+.v-application .primary.darken-4 {
+  background-color: #010101 !important;
+  border-color: #010101 !important;
+}
+.v-application .primary--text.text--darken-4 {
+  color: #010101 !important;
+  caret-color: #010101 !important;
+}
+.v-application .secondary {
+  background-color: #333333 !important;
+  border-color: #333333 !important;
+}
+.v-application .secondary--text {
+  color: #333333 !important;
+  caret-color: #333333 !important;
+}
+.v-application .secondary.lighten-5 {
+  background-color: #aeaeae !important;
+  border-color: #aeaeae !important;
+}
+.v-application .secondary--text.text--lighten-5 {
+  color: #aeaeae !important;
+  caret-color: #aeaeae !important;
+}
+.v-application .secondary.lighten-4 {
+  background-color: #949494 !important;
+  border-color: #949494 !important;
+}
+.v-application .secondary--text.text--lighten-4 {
+  color: #949494 !important;
+  caret-color: #949494 !important;
+}
+.v-application .secondary.lighten-3 {
+  background-color: #7a7a7a !important;
+  border-color: #7a7a7a !important;
+}
+.v-application .secondary--text.text--lighten-3 {
+  color: #7a7a7a !important;
+  caret-color: #7a7a7a !important;
+}
+.v-application .secondary.lighten-2 {
+  background-color: #616161 !important;
+  border-color: #616161 !important;
+}
+.v-application .secondary--text.text--lighten-2 {
+  color: #616161 !important;
+  caret-color: #616161 !important;
+}
+.v-application .secondary.lighten-1 {
+  background-color: #4a4a4a !important;
+  border-color: #4a4a4a !important;
+}
+.v-application .secondary--text.text--lighten-1 {
+  color: #4a4a4a !important;
+  caret-color: #4a4a4a !important;
+}
+.v-application .secondary.darken-1 {
+  background-color: #1e1e1e !important;
+  border-color: #1e1e1e !important;
+}
+.v-application .secondary--text.text--darken-1 {
+  color: #1e1e1e !important;
+  caret-color: #1e1e1e !important;
+}
+.v-application .secondary.darken-2 {
+  background-color: #050505 !important;
+  border-color: #050505 !important;
+}
+.v-application .secondary--text.text--darken-2 {
+  color: #050505 !important;
+  caret-color: #050505 !important;
+}
+.v-application .secondary.darken-3 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .secondary--text.text--darken-3 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .secondary.darken-4 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .secondary--text.text--darken-4 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .accent {
+  background-color: #aa0000 !important;
+  border-color: #aa0000 !important;
+}
+.v-application .accent--text {
+  color: #aa0000 !important;
+  caret-color: #aa0000 !important;
+}
+.v-application .accent.lighten-5 {
+  background-color: #ffa27b !important;
+  border-color: #ffa27b !important;
+}
+.v-application .accent--text.text--lighten-5 {
+  color: #ffa27b !important;
+  caret-color: #ffa27b !important;
+}
+.v-application .accent.lighten-4 {
+  background-color: #ff8561 !important;
+  border-color: #ff8561 !important;
+}
+.v-application .accent--text.text--lighten-4 {
+  color: #ff8561 !important;
+  caret-color: #ff8561 !important;
+}
+.v-application .accent.lighten-3 {
+  background-color: #ff6948 !important;
+  border-color: #ff6948 !important;
+}
+.v-application .accent--text.text--lighten-3 {
+  color: #ff6948 !important;
+  caret-color: #ff6948 !important;
+}
+.v-application .accent.lighten-2 {
+  background-color: #ea4d30 !important;
+  border-color: #ea4d30 !important;
+}
+.v-application .accent--text.text--lighten-2 {
+  color: #ea4d30 !important;
+  caret-color: #ea4d30 !important;
+}
+.v-application .accent.lighten-1 {
+  background-color: #ca2f19 !important;
+  border-color: #ca2f19 !important;
+}
+.v-application .accent--text.text--lighten-1 {
+  color: #ca2f19 !important;
+  caret-color: #ca2f19 !important;
+}
+.v-application .accent.darken-1 {
+  background-color: #8b0000 !important;
+  border-color: #8b0000 !important;
+}
+.v-application .accent--text.text--darken-1 {
+  color: #8b0000 !important;
+  caret-color: #8b0000 !important;
+}
+.v-application .accent.darken-2 {
+  background-color: #6e0000 !important;
+  border-color: #6e0000 !important;
+}
+.v-application .accent--text.text--darken-2 {
+  color: #6e0000 !important;
+  caret-color: #6e0000 !important;
+}
+.v-application .accent.darken-3 {
+  background-color: #540000 !important;
+  border-color: #540000 !important;
+}
+.v-application .accent--text.text--darken-3 {
+  color: #540000 !important;
+  caret-color: #540000 !important;
+}
+.v-application .accent.darken-4 {
+  background-color: #450000 !important;
+  border-color: #450000 !important;
+}
+.v-application .accent--text.text--darken-4 {
+  color: #450000 !important;
+  caret-color: #450000 !important;
+}
+.v-application .error {
+  background-color: #aa0000 !important;
+  border-color: #aa0000 !important;
+}
+.v-application .error--text {
+  color: #aa0000 !important;
+  caret-color: #aa0000 !important;
+}
+.v-application .error.lighten-5 {
+  background-color: #ffa27b !important;
+  border-color: #ffa27b !important;
+}
+.v-application .error--text.text--lighten-5 {
+  color: #ffa27b !important;
+  caret-color: #ffa27b !important;
+}
+.v-application .error.lighten-4 {
+  background-color: #ff8561 !important;
+  border-color: #ff8561 !important;
+}
+.v-application .error--text.text--lighten-4 {
+  color: #ff8561 !important;
+  caret-color: #ff8561 !important;
+}
+.v-application .error.lighten-3 {
+  background-color: #ff6948 !important;
+  border-color: #ff6948 !important;
+}
+.v-application .error--text.text--lighten-3 {
+  color: #ff6948 !important;
+  caret-color: #ff6948 !important;
+}
+.v-application .error.lighten-2 {
+  background-color: #ea4d30 !important;
+  border-color: #ea4d30 !important;
+}
+.v-application .error--text.text--lighten-2 {
+  color: #ea4d30 !important;
+  caret-color: #ea4d30 !important;
+}
+.v-application .error.lighten-1 {
+  background-color: #ca2f19 !important;
+  border-color: #ca2f19 !important;
+}
+.v-application .error--text.text--lighten-1 {
+  color: #ca2f19 !important;
+  caret-color: #ca2f19 !important;
+}
+.v-application .error.darken-1 {
+  background-color: #8b0000 !important;
+  border-color: #8b0000 !important;
+}
+.v-application .error--text.text--darken-1 {
+  color: #8b0000 !important;
+  caret-color: #8b0000 !important;
+}
+.v-application .error.darken-2 {
+  background-color: #6e0000 !important;
+  border-color: #6e0000 !important;
+}
+.v-application .error--text.text--darken-2 {
+  color: #6e0000 !important;
+  caret-color: #6e0000 !important;
+}
+.v-application .error.darken-3 {
+  background-color: #540000 !important;
+  border-color: #540000 !important;
+}
+.v-application .error--text.text--darken-3 {
+  color: #540000 !important;
+  caret-color: #540000 !important;
+}
+.v-application .error.darken-4 {
+  background-color: #450000 !important;
+  border-color: #450000 !important;
+}
+.v-application .error--text.text--darken-4 {
+  color: #450000 !important;
+  caret-color: #450000 !important;
+}
+.v-application .info {
+  background-color: #2196f3 !important;
+  border-color: #2196f3 !important;
+}
+.v-application .info--text {
+  color: #2196f3 !important;
+  caret-color: #2196f3 !important;
+}
+.v-application .info.lighten-5 {
+  background-color: #d4ffff !important;
+  border-color: #d4ffff !important;
+}
+.v-application .info--text.text--lighten-5 {
+  color: #d4ffff !important;
+  caret-color: #d4ffff !important;
+}
+.v-application .info.lighten-4 {
+  background-color: #b5ffff !important;
+  border-color: #b5ffff !important;
+}
+.v-application .info--text.text--lighten-4 {
+  color: #b5ffff !important;
+  caret-color: #b5ffff !important;
+}
+.v-application .info.lighten-3 {
+  background-color: #95e8ff !important;
+  border-color: #95e8ff !important;
+}
+.v-application .info--text.text--lighten-3 {
+  color: #95e8ff !important;
+  caret-color: #95e8ff !important;
+}
+.v-application .info.lighten-2 {
+  background-color: #75ccff !important;
+  border-color: #75ccff !important;
+}
+.v-application .info--text.text--lighten-2 {
+  color: #75ccff !important;
+  caret-color: #75ccff !important;
+}
+.v-application .info.lighten-1 {
+  background-color: #51b0ff !important;
+  border-color: #51b0ff !important;
+}
+.v-application .info--text.text--lighten-1 {
+  color: #51b0ff !important;
+  caret-color: #51b0ff !important;
+}
+.v-application .info.darken-1 {
+  background-color: #007cd6 !important;
+  border-color: #007cd6 !important;
+}
+.v-application .info--text.text--darken-1 {
+  color: #007cd6 !important;
+  caret-color: #007cd6 !important;
+}
+.v-application .info.darken-2 {
+  background-color: #0064ba !important;
+  border-color: #0064ba !important;
+}
+.v-application .info--text.text--darken-2 {
+  color: #0064ba !important;
+  caret-color: #0064ba !important;
+}
+.v-application .info.darken-3 {
+  background-color: #004d9f !important;
+  border-color: #004d9f !important;
+}
+.v-application .info--text.text--darken-3 {
+  color: #004d9f !important;
+  caret-color: #004d9f !important;
+}
+.v-application .info.darken-4 {
+  background-color: #003784 !important;
+  border-color: #003784 !important;
+}
+.v-application .info--text.text--darken-4 {
+  color: #003784 !important;
+  caret-color: #003784 !important;
+}
+.v-application .success {
+  background-color: #4caf50 !important;
+  border-color: #4caf50 !important;
+}
+.v-application .success--text {
+  color: #4caf50 !important;
+  caret-color: #4caf50 !important;
+}
+.v-application .success.lighten-5 {
+  background-color: #dcffd6 !important;
+  border-color: #dcffd6 !important;
+}
+.v-application .success--text.text--lighten-5 {
+  color: #dcffd6 !important;
+  caret-color: #dcffd6 !important;
+}
+.v-application .success.lighten-4 {
+  background-color: #beffba !important;
+  border-color: #beffba !important;
+}
+.v-application .success--text.text--lighten-4 {
+  color: #beffba !important;
+  caret-color: #beffba !important;
+}
+.v-application .success.lighten-3 {
+  background-color: #a2ff9e !important;
+  border-color: #a2ff9e !important;
+}
+.v-application .success--text.text--lighten-3 {
+  color: #a2ff9e !important;
+  caret-color: #a2ff9e !important;
+}
+.v-application .success.lighten-2 {
+  background-color: #85e783 !important;
+  border-color: #85e783 !important;
+}
+.v-application .success--text.text--lighten-2 {
+  color: #85e783 !important;
+  caret-color: #85e783 !important;
+}
+.v-application .success.lighten-1 {
+  background-color: #69cb69 !important;
+  border-color: #69cb69 !important;
+}
+.v-application .success--text.text--lighten-1 {
+  color: #69cb69 !important;
+  caret-color: #69cb69 !important;
+}
+.v-application .success.darken-1 {
+  background-color: #2d9437 !important;
+  border-color: #2d9437 !important;
+}
+.v-application .success--text.text--darken-1 {
+  color: #2d9437 !important;
+  caret-color: #2d9437 !important;
+}
+.v-application .success.darken-2 {
+  background-color: #00791e !important;
+  border-color: #00791e !important;
+}
+.v-application .success--text.text--darken-2 {
+  color: #00791e !important;
+  caret-color: #00791e !important;
+}
+.v-application .success.darken-3 {
+  background-color: #006000 !important;
+  border-color: #006000 !important;
+}
+.v-application .success--text.text--darken-3 {
+  color: #006000 !important;
+  caret-color: #006000 !important;
+}
+.v-application .success.darken-4 {
+  background-color: #004700 !important;
+  border-color: #004700 !important;
+}
+.v-application .success--text.text--darken-4 {
+  color: #004700 !important;
+  caret-color: #004700 !important;
+}
+.v-application .warning {
+  background-color: #fb8c00 !important;
+  border-color: #fb8c00 !important;
+}
+.v-application .warning--text {
+  color: #fb8c00 !important;
+  caret-color: #fb8c00 !important;
+}
+.v-application .warning.lighten-5 {
+  background-color: #ffff9e !important;
+  border-color: #ffff9e !important;
+}
+.v-application .warning--text.text--lighten-5 {
+  color: #ffff9e !important;
+  caret-color: #ffff9e !important;
+}
+.v-application .warning.lighten-4 {
+  background-color: #fffb82 !important;
+  border-color: #fffb82 !important;
+}
+.v-application .warning--text.text--lighten-4 {
+  color: #fffb82 !important;
+  caret-color: #fffb82 !important;
+}
+.v-application .warning.lighten-3 {
+  background-color: #ffdf67 !important;
+  border-color: #ffdf67 !important;
+}
+.v-application .warning--text.text--lighten-3 {
+  color: #ffdf67 !important;
+  caret-color: #ffdf67 !important;
+}
+.v-application .warning.lighten-2 {
+  background-color: #ffc24b !important;
+  border-color: #ffc24b !important;
+}
+.v-application .warning--text.text--lighten-2 {
+  color: #ffc24b !important;
+  caret-color: #ffc24b !important;
+}
+.v-application .warning.lighten-1 {
+  background-color: #ffa72d !important;
+  border-color: #ffa72d !important;
+}
+.v-application .warning--text.text--lighten-1 {
+  color: #ffa72d !important;
+  caret-color: #ffa72d !important;
+}
+.v-application .warning.darken-1 {
+  background-color: #db7200 !important;
+  border-color: #db7200 !important;
+}
+.v-application .warning--text.text--darken-1 {
+  color: #db7200 !important;
+  caret-color: #db7200 !important;
+}
+.v-application .warning.darken-2 {
+  background-color: #bb5900 !important;
+  border-color: #bb5900 !important;
+}
+.v-application .warning--text.text--darken-2 {
+  color: #bb5900 !important;
+  caret-color: #bb5900 !important;
+}
+.v-application .warning.darken-3 {
+  background-color: #9d4000 !important;
+  border-color: #9d4000 !important;
+}
+.v-application .warning--text.text--darken-3 {
+  color: #9d4000 !important;
+  caret-color: #9d4000 !important;
+}
+.v-application .warning.darken-4 {
+  background-color: #802700 !important;
+  border-color: #802700 !important;
+}
+.v-application .warning--text.text--darken-4 {
+  color: #802700 !important;
+  caret-color: #802700 !important;
+}</style></head><body><noscript><strong>We're sorry but portafolio doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div data-app="true" class="v-application app v-application--is-ltr theme--light" id="app"><div class="v-application--wrap"><div data-v-7dfb2b78=""><header data-v-7dfb2b78="" class="hidden-md-and-up v-sheet theme--dark v-toolbar v-toolbar--flat v-app-bar v-app-bar--fixed" style="height: 56px; margin-top: 0px; transform: translateY(0px); left: 0px; right: 0px; background-color: rgb(51, 51, 51); border-color: rgb(51, 51, 51);" data-booted="true"><div class="v-toolbar__content" style="height: 56px;"><button data-v-7dfb2b78="" type="button" class="v-btn v-btn--icon v-btn--round theme--dark v-size--default"><span class="v-btn__content"><i data-v-7dfb2b78="" aria-hidden="true" class="v-icon notranslate mdi mdi-menu theme--dark"></i></span></button><div data-v-7dfb2b78="" class="spacer"></div><button data-v-7dfb2b78="" type="button" class="v-btn v-btn--icon v-btn--round theme--dark v-size--default"><span class="v-btn__content"><i data-v-7dfb2b78="" aria-hidden="true" class="v-icon notranslate mdi mdi-music theme--dark"></i></span></button></div></header><aside data-v-7dfb2b78="" class="hidden-md-and-up v-navigation-drawer v-navigation-drawer--close v-navigation-drawer--fixed v-navigation-drawer--is-mobile theme--dark" style="height: 100%; top: 0px; transform: translateX(-100%); width: 256px;" data-booted="true"><div class="v-navigation-drawer__content"><div data-v-7dfb2b78="" tabindex="-1" class="v-list-item theme--dark"><div data-v-7dfb2b78="" class="v-avatar v-list-item__avatar" style="height: 40px; min-width: 40px; width: 40px;"><div data-v-7dfb2b78="" class="v-image v-responsive theme--dark"><div class="v-image__image v-image__image--preload v-image__image--cover" style="background-position: center center;"></div><div class="v-responsive__content"></div></div></div><div data-v-7dfb2b78="" class="v-list-item__content"><div data-v-7dfb2b78="" class="v-list-item__title">Carlitos</div></div></div><hr data-v-7dfb2b78="" role="separator" aria-orientation="horizontal" class="v-divider theme--dark"><div data-v-7dfb2b78="" role="list" class="v-list v-sheet theme--dark rounded v-list--dense v-list--rounded"><a data-v-7dfb2b78="" href="#/" aria-current="page" class="v-list-item--active v-list-item v-list-item--link theme--dark" tabindex="0" role="listitem"><div data-v-7dfb2b78="" class="v-list-item__icon"><i data-v-7dfb2b78="" aria-hidden="true" class="v-icon notranslate mdi mdi-home theme--dark"></i></div><div data-v-7dfb2b78="" class="v-list-item__content"><div data-v-7dfb2b78="" class="v-list-item__title">Inicio</div></div></a><a data-v-7dfb2b78="" href="#/proyects" class="v-list-item v-list-item--link theme--dark" tabindex="0" role="listitem"><div data-v-7dfb2b78="" class="v-list-item__icon"><i data-v-7dfb2b78="" aria-hidden="true" class="v-icon notranslate mdi mdi-briefcase-eye-outline theme--dark"></i></div><div data-v-7dfb2b78="" class="v-list-item__content"><div data-v-7dfb2b78="" class="v-list-item__title">Proyectos</div></div></a><a data-v-7dfb2b78="" href="#/curriculum" class="v-list-item v-list-item--link theme--dark" tabindex="0" role="listitem"><div data-v-7dfb2b78="" class="v-list-item__icon"><i data-v-7dfb2b78="" aria-hidden="true" class="v-icon notranslate mdi mdi-file-outline theme--dark"></i></div><div data-v-7dfb2b78="" class="v-list-item__content"><div data-v-7dfb2b78="" class="v-list-item__title">Curriculum</div></div></a><a data-v-7dfb2b78="" href="#/pcbuilder" class="v-list-item v-list-item--link theme--dark" tabindex="0" role="listitem"><div data-v-7dfb2b78="" class="v-list-item__icon"><i data-v-7dfb2b78="" aria-hidden="true" class="v-icon notranslate mdi mdi-laptop theme--dark"></i></div><div data-v-7dfb2b78="" class="v-list-item__content"><div data-v-7dfb2b78="" class="v-list-item__title">PcBuilder</div></div></a><a data-v-7dfb2b78="" href="#/noExisto:,)" class="v-list-item v-list-item--link theme--dark" tabindex="0" role="listitem"><div data-v-7dfb2b78="" class="v-list-item__icon"><i data-v-7dfb2b78="" aria-hidden="true" class="v-icon notranslate mdi mdi-alert-octagon-outline theme--dark"></i></div><div data-v-7dfb2b78="" class="v-list-item__content"><div data-v-7dfb2b78="" class="v-list-item__title">Error page</div></div></a></div></div><div class="v-navigation-drawer__border"></div></aside><div data-v-7dfb2b78="" class="text-center"><div class="v-dialog__container"><!----></div><audio id="cancion"><source volume="0.5" src="/media/Lobo hombre en París.0d71f4bf.mp3" type="audio/mpeg"></audio></div><header data-v-7dfb2b78="" class="hidden-md-and-down v-sheet theme--dark v-toolbar v-app-bar v-app-bar--fixed" style="height: 56px; margin-top: 0px; transform: translateY(0px); left: 0px; right: 0px; background-color: rgb(51, 51, 51); border-color: rgb(51, 51, 51);" data-booted="true"><div class="v-toolbar__content" style="height: 56px;"><a data-v-7dfb2b78="" href="#/" aria-current="page" class="v-btn--active v-btn v-btn--router v-btn--text theme--dark v-size--default" flat=""><span class="v-btn__content"> Logotipo </span></a><div data-v-7dfb2b78="" class="spacer"></div><div data-v-7dfb2b78="" class="spacer"></div><div data-v-7dfb2b78="" class="indice"><div data-v-7dfb2b78="" role="button" aria-haspopup="true" aria-expanded="false"><i data-v-7dfb2b78="" aria-hidden="true" class="v-icon notranslate mx-2 mdi mdi-menu theme--dark"></i> Inicio </div><div data-v-7dfb2b78="" class="v-menu"><!----></div></div><button data-v-7dfb2b78="" type="button" class="v-btn v-btn--icon v-btn--round theme--dark v-size--default"><span class="v-btn__content"><i data-v-7dfb2b78="" aria-hidden="true" class="v-icon notranslate mdi mdi-music theme--dark"></i></span></button></div></header></div><main class="v-main colorFondo" style="padding: 112px 0px 0px;" data-booted="true"><div class="v-main__wrap"><div data-v-467a6ed9="" class="home"><div data-v-467a6ed9="" id="stars"></div><div data-v-467a6ed9="" id="stars2"></div><div data-v-467a6ed9="" id="stars3"></div><div data-v-467a6ed9="" class="container d-flex pt-2" style="position: absolute; z-index: 1; font-family: Courier, &quot;Lucida Console&quot;, monospace;"><div data-v-467a6ed9="" class="d-flex flex-column justify-end"><h2 data-v-467a6ed9="" class="white--text m-10">Juan carlos</h2><h2 data-v-467a6ed9="" class="white--text m-10">montaño alvarez</h2></div></div><div data-v-467a6ed9="" class="cajota d-flex justify-center align-center"><div data-v-467a6ed9="" class="caja"><div data-v-2c8c8a9e="" data-v-467a6ed9="" class="Among"><div data-v-2c8c8a9e="" class="mochila v-sheet theme--light" style="background-color: rgb(229, 57, 53); border-color: rgb(229, 57, 53);"><div data-v-2c8c8a9e="" class="sombraMochila v-sheet theme--light" style="background-color: rgb(244, 67, 54); border-color: rgb(244, 67, 54);"></div></div><div data-v-2c8c8a9e="" class="cuerpo v-sheet theme--light" style="background-color: rgb(229, 57, 53); border-color: rgb(229, 57, 53);"><div data-v-2c8c8a9e="" class="sombraCuerpo v-sheet theme--light" style="background-color: rgb(244, 67, 54); border-color: rgb(244, 67, 54);"></div></div><div data-v-2c8c8a9e="" class="pie1 v-sheet theme--light" style="background-color: rgb(229, 57, 53); border-color: rgb(229, 57, 53);"></div><div data-v-2c8c8a9e="" class="pie2 v-sheet theme--light" style="background-color: rgb(229, 57, 53); border-color: rgb(229, 57, 53);"></div><div data-v-2c8c8a9e="" class="lentes v-sheet theme--light"></div></div></div><div data-v-467a6ed9="" class="container"><div data-v-467a6ed9="" class="hidden-md-and-up mt-2"><div data-v-467a6ed9="" class="wrapper"><div data-v-467a6ed9="" class="typing-demo" style="font-size: 1.5rem;"> Programador web/mobile. </div></div></div><div data-v-467a6ed9="" class="hidden-md-and-down mt-4"><div data-v-467a6ed9="" class="wrapper"><div data-v-467a6ed9="" class="typing-demo" style="font-size: 3rem;"> Programador web/mobile. </div></div></div></div></div><div data-v-467a6ed9="" class="d-flex flex-row-reverse"><div data-v-8cd7f858="" data-v-467a6ed9="" class="Mouse"><div data-v-8cd7f858="" class="botones"><div data-v-8cd7f858="" class="botonDerecho"></div><div data-v-8cd7f858="" class="botonCentro"></div><div data-v-8cd7f858="" class="botonIzquierdo"></div></div><div data-v-8cd7f858="" class="cuerpo"><div data-v-8cd7f858="" class="flecha"><div data-v-8cd7f858="" class="linea"></div><div data-v-8cd7f858="" class="punta"></div></div></div></div></div><div data-v-467a6ed9="" class="container"><div class="d-flex flex-wrap justify-space-around"><div class="my-6" style="width: 500px;"><hr role="separator" aria-orientation="horizontal" color="#fff" class="v-divider theme--light"><div class="d-flex"><div class="mr-6 mt-2"><div class="v-image v-responsive rounded-lg theme--light" style="height: 150px; width: 150px;"><div class="v-image__image v-image__image--preload v-image__image--cover" style="background-image: url(&quot;/img/foto2Lazi.79758cfb.jpeg&quot;); background-position: center center;"></div><div class="v-responsive__content"></div></div></div><div class="text-justify white--text text-h6"> Hola, soy Carlos. Un gusto saludarte este pequeño proyecto tiene la intención de dar a conocer un poco mi trabajo espero sea de tu agrado siente libre de presionar todos los botones. </div></div><br><div class="grey--text">Pdta. Sin romper nada.</div></div></div></div></div></div></main><div class="rounded-0 v-card v-sheet theme--dark" style="width: 100%;"><div class="v-card__text text-center"><h4>"Estudia para la vida no para un examen"</h4></div></div></div></div><script src="/js/chunk-vendors.725e5428.js"></script><script src="/js/app.b9cfbb05.js"></script></body></html>
