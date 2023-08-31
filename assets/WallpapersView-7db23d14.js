@@ -1,0 +1,1 @@
+import{o as e,c as a,a as s,g as t,_ as c}from"./index-53ee3eac.js";const o={class:"h-screen flex justify-around"},_={class:"w-1/3"},i=s("div",{class:"w-1/3 bg-slate-900"},[s("div")],-1),n=s("div",{class:"w-1/3 bg-green-950"},[s("div")],-1),f={__name:"WallpapersView",setup(r){return(d,l)=>(e(),a("div",o,[s("div",_,[t(c)]),i,n]))}};export{f as default};
